@@ -9,4 +9,4 @@ services:
       context: ./
       dockerfile: ./Dockerfile
     volumes:
-      - ./fs:/var/www/html
+      - ./local/fs:/var/www/html

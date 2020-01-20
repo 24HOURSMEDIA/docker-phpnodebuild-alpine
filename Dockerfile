@@ -3,7 +3,12 @@ ARG PHP_IMAGE=24hoursmedia/pfpm73rutor:latest
 FROM $PHP_IMAGE
 
 ARG YARN_VERSION=1.21.1
+#ARG NODE_VERSION=10.18.1
 ARG NODE_VERSION=10.18.1
+ARG NODE_CHECKSUM=72de2f5e7826c2c13374c1d2e2a283556336c03b03507e8a6216b376a3c7693e
+
+RUN echo "NODE VERSION: ${NODE_VERSION}"
+
 ARG USER=nobody
 
 USER root
@@ -21,7 +26,7 @@ RUN apk add --no-cache \
       && case "${alpineArch##*-}" in \
         x86_64) \
           ARCH='x64' \
-          CHECKSUM="72de2f5e7826c2c13374c1d2e2a283556336c03b03507e8a6216b376a3c7693e" \
+          CHECKSUM="${NODE_CHECKSUM}" \
           ;; \
         *) ;; \
       esac \

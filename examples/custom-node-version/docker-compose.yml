@@ -1,17 +1,3 @@
-# docker-phpbuild-machine
-
-A docker image that takes an alpine php image as base image,
-and installs node/yarn/npm on top of it.
-
-So you can build a complete php application.
-
-You can configure the build with ARG's.
-
-## Examples
-
-### docker-compose example
-
-```
 version: '3.7'
 
 services:
@@ -24,4 +10,5 @@ services:
         # for example https://github.com/nodejs/docker-node/blob/8b8eebe2667b04d50f85535e2504fcbfd4675930/13/alpine3.10/Dockerfile
         NODE_VERSION: 13.6.0
         NODE_CHECKSUM: 6dec2b26f072ce2dd2cf5c72e4cccf76095afa71d4ac4803752f3a5bab8c01df
-```
+
+
