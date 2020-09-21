@@ -8,5 +8,9 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
+      args:
+        PHP_IMAGE: 24hoursmedia/pfpm74trift:latest
     volumes:
       - ./local/fs:/var/www/html
+    dns:
+      - 1.1.1.1

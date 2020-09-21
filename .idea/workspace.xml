@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b35783-62f0-4456-befa-b0385bdb23ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/docker-phpnodebuild-alpine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/custom-node-version/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/docker-compose.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,15 +28,17 @@
   <component name="ProjectId" id="1WfJOjXtpFEKqdofp39KdeSH3vp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
@@ -55,18 +46,7 @@
       <recent name="$PROJECT_DIR$/examples/custom-node-version" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="36b35783-62f0-4456-befa-b0385bdb23ee" name="Default Changelist" comment="" />
@@ -74,7 +54,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579534685523</updated>
-      <workItem from="1579534686943" duration="1417000" />
+      <workItem from="1579534686943" duration="1532000" />
+      <workItem from="1600683803513" duration="589000" />
+      <workItem from="1600684629695" duration="1049000" />
+      <workItem from="1600685905129" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1579534808662</created>
@@ -83,24 +66,32 @@
       <option name="project" value="LOCAL" />
       <updated>1579534808662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="allows customization">
+      <created>1579536148182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579536148182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="allows customization" />
+    <option name="LAST_COMMIT_MESSAGE" value="allows customization" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="262" key="CommitChangelistDialog2" timestamp="1579534808488">
+    <state x="722" y="262" key="CommitChangelistDialog2" timestamp="1579536148048">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="722" y="262" key="CommitChangelistDialog2/2560.816.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1579534808488" />
-    <state x="849" y="399" key="Vcs.Push.Dialog.v2" timestamp="1579534816358">
+    <state x="722" y="262" key="CommitChangelistDialog2/2560.816.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1579536148048" />
+    <state x="849" y="399" key="Vcs.Push.Dialog.v2" timestamp="1579536149561">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="849" y="399" key="Vcs.Push.Dialog.v2/2560.816.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1579534816358" />
+    <state x="849" y="399" key="Vcs.Push.Dialog.v2/2560.816.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1579536149561" />
   </component>
 </project>
