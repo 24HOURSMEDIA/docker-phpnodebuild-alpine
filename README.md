@@ -25,3 +25,20 @@ services:
         NODE_VERSION: 13.6.0
         NODE_CHECKSUM: 6dec2b26f072ce2dd2cf5c72e4cccf76095afa71d4ac4803752f3a5bab8c01df
 ```
+
+## Different node versions
+
+Use these build arguments:
+
+### Node 12.14.1
+
+      args:
+        PHP_IMAGE: 24hoursmedia/pfpm74trift:1.0.4
+        NODE_VERSION: 12.14.1
+        NODE_CHECKSUM: 6906577d7b15cc940f47fc88436ac45f73e5abecd15f09d8f2a9ea337fc2fe5e
+
+### Node 13.6.0
+
+      args:
+        NODE_VERSION: 13.6.0
+        NODE_CHECKSUM: 6dec2b26f072ce2dd2cf5c72e4cccf76095afa71d4ac4803752f3a5bab8c01df
